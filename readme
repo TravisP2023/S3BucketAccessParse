@@ -1,0 +1,3 @@
+Make sure you have the boto3 library installed (pip install boto3) and have configured your AWS credentials using the AWS CLI or environment variables.
+Replace 'your-bucket-name' with the actual name of the S3 bucket you want to parse IAM policies for. The script will retrieve the bucket policy and then simulate the policy for the specified bucket, extracting the relevant information (effect, action, and resource) from the statements.
+Note that this script assumes you have the necessary permissions to access IAM policies and simulate them.
